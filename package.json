@@ -1,0 +1,22 @@
+{
+  "name": "betaflight-presets",
+  "version": "1.0.0",
+  "description": "Betaflight CLI presets",
+  "scripts": {
+    "index": "node indexer/indexer.js",
+    "verify": "node indexer/check.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denwilliams/betaflight-presets.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denwilliams/betaflight-presets/issues"
+  },
+  "homepage": "https://github.com/denwilliams/betaflight-presets#readme",
+  "dependencies": {
+    "indexer": "^1.0.2"
+  }
+}
