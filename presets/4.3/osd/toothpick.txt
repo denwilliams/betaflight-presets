@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: toothpick, OSD
+#$ KEYWORDS: toothpick, osd
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: Standard OSD settings for outdoor toothpicks
 

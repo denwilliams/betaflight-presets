@@ -102,27 +102,82 @@
       "4.3"
     ],
     "category": [
-      "OSD"
+      "OSD",
+      "VTX"
     ],
     "author": [
+      "Betaflight",
       "Den Williams"
     ],
     "keywords": [
-      "OSD",
+      "defaults",
+      "happymodel",
+      "osd",
+      "ovx300",
+      "reset",
+      "toothpick",
       "whoop"
     ]
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/osd/whoop.txt",
-      "hash": "5671f590213b05c517c738036f8abaff9b1f14af9527756b81d17e2e63721408",
+      "fullPath": "presets/4.3/osd/default.txt",
+      "hash": "f9fa142f2968b2271a27d344bf5623b846130610e9e300448bc8bddb87c0d117",
+      "options": [],
+      "title": "Default 4.3 OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "osd"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Resets the OSD values back to Betaflight 4.3 defaults"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/toothpick.txt",
+      "hash": "2eccdc5c49c11c5b0e716dbefac10b64f0721db233ad43e359095c37bfa4a457",
       "options": [
         {
-          "name": "<Reset to defaults>",
+          "name": "Reset to defaults",
           "checked": false
         },
         {
-          "name": "<Whoop Customizations>",
+          "name": "Toothpick Customizations",
+          "checked": true
+        }
+      ],
+      "title": "Toothpick OSD settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "toothpick",
+        "osd"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Standard OSD settings for outdoor toothpicks"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/osd/whoop.txt",
+      "hash": "6a8f2560189f326444be55cc1490e682519a164bf4745614cb55359f67f0d47a",
+      "options": [
+        {
+          "name": "Reset to defaults",
+          "checked": false
+        },
+        {
+          "name": "Whoop Customizations",
           "checked": true
         }
       ],
@@ -134,16 +189,16 @@
       "status": "COMMUNITY",
       "keywords": [
         "whoop",
-        "OSD"
+        "osd"
       ],
       "author": "Den Williams",
       "description": [
-        "Standard OSD settings for whooping"
+        "Standard OSD settings for indoor whooping"
       ]
     },
     {
       "fullPath": "presets/4.3/osd/whoop1.txt",
-      "hash": "ae727bcf038a9308a21730fa5724cdba5519ac7257222ac82a82ba48da62a081",
+      "hash": "d821a1678558c78254e09789d5c0f07d7f322276ad36df4c3d488ddcfc94abd2",
       "options": [],
       "title": "Whoop1 OSD settings",
       "firmware_version": [
@@ -153,11 +208,39 @@
       "status": "COMMUNITY",
       "keywords": [
         "whoop",
-        "OSD"
+        "osd"
       ],
       "author": "Den Williams",
       "description": [
         "Standard OSD settings for whooping"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/ovx300.txt",
+      "hash": "bd814d05bce0be0f1fe263a762f6e751494e671073a313bcaf792134b5b7b1b1",
+      "options": [
+        {
+          "name": "<VTX Tables>",
+          "checked": true
+        },
+        {
+          "name": "VTX Channel 1-1 400mW",
+          "checked": true
+        }
+      ],
+      "title": "Happymodel OVX300 VTX",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "happymodel",
+        "ovx300"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "VTX tables for OVX300"
       ]
     }
   ]

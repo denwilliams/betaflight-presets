@@ -1,8 +1,8 @@
 #$ TITLE: Whoop1 OSD settings
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: OSD, OSD
+#$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: whoop
+#$ KEYWORDS: whoop, osd
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: Standard OSD settings for whooping
 
