@@ -6,8 +6,7 @@
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: VTX tables for OVX300
 
-#$ OPTION BEGIN (CHECKED): <VTX Tables>
-# vtxtable
+#$ OPTION BEGIN (CHECKED): VTX Tables
 vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
@@ -21,7 +20,7 @@ vtxtable powervalues 1 2 14 20 26
 vtxtable powerlabels 0 RCE 25 100 400
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): VTX Channel 1-1 400mW
+#$ OPTION BEGIN (CHECKED): VTX Band1 Channel 1 400mW
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 3

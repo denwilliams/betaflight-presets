@@ -217,14 +217,14 @@
     },
     {
       "fullPath": "presets/4.3/vtx/ovx300.txt",
-      "hash": "bd814d05bce0be0f1fe263a762f6e751494e671073a313bcaf792134b5b7b1b1",
+      "hash": "f382a78fac2614d5f0bb3fae79e22a8c7ee8735b2fe9d307758c7b55e6091f12",
       "options": [
         {
-          "name": "<VTX Tables>",
+          "name": "VTX Tables",
           "checked": true
         },
         {
-          "name": "VTX Channel 1-1 400mW",
+          "name": "VTX Band1 Channel 1 400mW",
           "checked": true
         }
       ],
