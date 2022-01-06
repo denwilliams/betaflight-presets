@@ -1,13 +1,12 @@
-#$ TITLE: Whoop OSD settings
+#$ TITLE: Toothpick OSD settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: whoop, OSD
+#$ KEYWORDS: toothpick, OSD
 #$ AUTHOR: Den Williams
-#$ DESCRIPTION: Standard OSD settings for indoor whooping
+#$ DESCRIPTION: Standard OSD settings for outdoor toothpicks
 
 #$ OPTION BEGIN (UNCHECKED): Reset to defaults
-
 set osd_units = METRIC
 set osd_warn_arming_disable = ON
 set osd_warn_batt_not_full = ON
@@ -142,33 +141,31 @@ set osd_camera_frame_height = 11
 set osd_stat_avg_cell_value = OFF
 set osd_framerate_hz = 12
 set osd_menu_background = TRANSPARENT
-
 #$ OPTION END
 
 
-#$ OPTION BEGIN (CHECKED): Whoop Customizations
-
-set osd_warn_batt_not_full = OFF
+#$ OPTION BEGIN (CHECKED): Toothpick Customizations
 set osd_warn_esc_fail = OFF
-set osd_warn_core_temp = OFF
-set osd_vbat_pos = 2433
-set osd_rssi_pos = 314
-set osd_tim_2_pos = 375
-set osd_flymode_pos = 2457
-set osd_throttle_pos = 344
-set osd_crosshairs_pos = 2253
-set osd_ah_pos = 2126
-set osd_current_pos = 288
-set osd_mah_drawn_pos = 2368
-set osd_craft_name_pos = 2442
-set osd_warnings_pos = 2345
-set osd_avg_cell_voltage_pos = 353
-set osd_disarmed_pos = 2314
-set osd_stat_tim_1 = ON
+set osd_warn_no_gps_rescue = OFF
+set osd_warn_gps_rescue_disabled = OFF
+set osd_vbat_pos = 2091
+set osd_rssi_pos = 2081
+set osd_tim_1_pos = 54
+set osd_tim_2_pos = 2102
+set osd_flymode_pos = 2456
+set osd_g_force_pos = 65
+set osd_throttle_pos = 2423
+set osd_current_pos = 2400
+set osd_mah_drawn_pos = 2433
+set osd_craft_name_pos = 2443
+set osd_warnings_pos = 2281
+set osd_avg_cell_voltage_pos = 2123
+set osd_disarmed_pos = 2379
+set osd_esc_tmp_pos = 289
+set osd_core_temp_pos = 2369
+set osd_stat_max_spd = OFF
 set osd_stat_endbatt = ON
 set osd_stat_battery = ON
-set osd_stat_bbox = OFF
-set osd_stat_bb_no = OFF
+set osd_stat_max_esc_temp = ON
 set osd_stat_max_fft = ON
-
 #$ OPTION END

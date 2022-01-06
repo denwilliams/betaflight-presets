@@ -21,7 +21,7 @@ vtxtable powervalues 1 2 14 20 26
 vtxtable powerlabels 0 RCE 25 100 400
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): <VTX Channel 1-1 400mW>
+#$ OPTION BEGIN (CHECKED): VTX Channel 1-1 400mW
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 3

@@ -1,6 +1,6 @@
 #$ TITLE: Whoop1 OSD settings
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: OSD
+#$ CATEGORY: OSD, OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: whoop
 #$ AUTHOR: Den Williams
