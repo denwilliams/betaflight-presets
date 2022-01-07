@@ -49,3 +49,24 @@ set simplified_dterm_filter_multiplier = 150
 
 # -- Yaw lowpass (default) --
 # -- Accelerometer lowpass (default) --
+
+# -- PIDs --
+set p_pitch = 67
+set i_pitch = 96
+set d_pitch = 48
+set f_pitch = 137
+set p_roll = 64
+set i_roll = 91
+set d_roll = 41
+set f_roll = 132
+set p_yaw = 64
+set i_yaw = 91
+set f_yaw = 132
+set d_min_roll = 31
+set d_min_pitch = 35
+# set feedforward_averaging = 2_POINT
+set feedforward_jitter_factor = 9
+set simplified_master_multiplier = 110
+set simplified_i_gain = 80
+set simplified_d_gain = 95
+set simplified_pi_gain = 130

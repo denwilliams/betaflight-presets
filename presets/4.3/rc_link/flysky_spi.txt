@@ -8,3 +8,4 @@
 
 set flysky_spi_tx_id = 931549298
 set flysky_spi_rf_channels = 155,53,35,84,130,76,22,102,160,60,13,90,149,43,3,111
+set feedforward_averaging = 2_POINT

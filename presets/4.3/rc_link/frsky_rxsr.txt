@@ -6,3 +6,4 @@
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: Use an onboard Frsky R-XSR receiver for RX
 
+set feedforward_averaging = 2_POINT
