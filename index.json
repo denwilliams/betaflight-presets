@@ -853,17 +853,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/toothpick.txt",
-      "hash": "2eccdc5c49c11c5b0e716dbefac10b64f0721db233ad43e359095c37bfa4a457",
-      "options": [
-        {
-          "name": "Reset to defaults",
-          "checked": false
-        },
-        {
-          "name": "Toothpick Customizations",
-          "checked": true
-        }
-      ],
+      "hash": "e7055896eb6e787162a9dc5eeb0dc3300bd7aff3d200e81722cf577eca60de49",
+      "options": [],
       "title": "Toothpick OSD settings",
       "firmware_version": [
         "4.3"
@@ -881,17 +872,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/whoop.txt",
-      "hash": "6a8f2560189f326444be55cc1490e682519a164bf4745614cb55359f67f0d47a",
-      "options": [
-        {
-          "name": "Reset to defaults",
-          "checked": false
-        },
-        {
-          "name": "Whoop Customizations",
-          "checked": true
-        }
-      ],
+      "hash": "ff54beb1ebeb38ae8a77dd2551bd05788ccd7c357f35f48edf12482b4ff5cf93",
+      "options": [],
       "title": "Whoop OSD settings",
       "firmware_version": [
         "4.3"
@@ -2499,21 +2481,8 @@
     },
     {
       "fullPath": "presets/4.3/vtx/ovx300.txt",
-      "hash": "6783c09d6d30c1f7f24b185f7d496d733cc051433f3ff8f6f79a00368407b414",
-      "options": [
-        {
-          "name": "Smart Audio",
-          "checked": true
-        },
-        {
-          "name": "VTX Tables",
-          "checked": true
-        },
-        {
-          "name": "VTX Band1 Channel 1 400mW",
-          "checked": true
-        }
-      ],
+      "hash": "ee40112631b7edb348645744bb6c84f4dda4162a24815e695f789bf1695e1338",
+      "options": [],
       "title": "Happymodel OVX300 VTX",
       "firmware_version": [
         "4.3"
