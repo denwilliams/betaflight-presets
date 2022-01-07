@@ -14,3 +14,4 @@
 #$ INCLUDE: presets/4.3/other/tlite.txt
 
 set name = TP33_115
+set motor_poles = 12

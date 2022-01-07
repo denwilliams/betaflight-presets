@@ -7,49 +7,22 @@
 #$ DESCRIPTION: Tune for 3" toothpicks
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ INCLUDE: presets/4.3/osd/toothpick.txt
 
+# feature
+feature -AIRMODE
 
-# -- Gyro lowpass filters --
-set simplified_gyro_filter_multiplier = 200
-
-
-# -- Gyro Dynamic Notches --
-set dyn_notch_count = 2
-set dyn_notch_q = 500
-set dyn_notch_min_hz = 120
-
-# -- Dterm filtering --
-set dterm_lpf1_dyn_expo = 10
-
-# -- RPM filtering --
-set rpm_filter_fade_range_hz = 100
-
-# -- PID values --
-set simplified_pids_mode = RP
-set simplified_d_gain = 145
-set simplified_pi_gain = 115
-set simplified_dmax_gain = 70
-set simplified_feedforward_gain = 115
-set simplified_pitch_d_gain = 95
-set simplified_pitch_pi_gain = 110
-simplified_tuning apply
-
-# -- Feedforward --
-set feedforward_averaging = 2_POINT
-set feedforward_jitter_factor = 12
-
-#$ OPTION BEGIN (CHECKED): Dshot600
+# master
 set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT600
-#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Dshot300
-set dshot_bidir = ON
-set motor_pwm_protocol = Dshot300
-#$ OPTION END
+set vbat_max_cell_voltage = 433
+set vbat_min_cell_voltage = 320
+set vbat_warning_cell_voltage = 335
 
-#$ OPTION BEGIN (UNCHECKED): dynamic idle 
-set dshot_idle_value = 450
-set dyn_idle_min_rpm = 35
-set dyn_idle_p_gain = 35
-#$ OPTION END
+# props out
+set yaw_motors_reversed = ON
+
+# set small_angle = 180
+# set gyro_1_align_yaw = 900
+# set gyro_rpm_notch_harmonics = 1

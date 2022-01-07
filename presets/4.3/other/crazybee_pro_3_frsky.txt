@@ -7,5 +7,19 @@
 #$ DESCRIPTION: Configuration for Crazybee Pro 3.0 with Frsky SPI receiver
 #$ INCLUDE: presets/4.3/rc_link/frsky_spi_d8.txt
 
+# feature
+feature -RX_PARALLEL_PWM
+
 # beacon
 beacon RX_SET
+
+# master
+set beeper_dshot_beacon_tone = 3
+set ibata_scale = 470
+set gyro_1_align_yaw = 900
+
+set motor_pwm_protocol = DSHOT300
+
+set vbat_max_cell_voltage = 433
+set vbat_min_cell_voltage = 320
+set vbat_warning_cell_voltage = 335
