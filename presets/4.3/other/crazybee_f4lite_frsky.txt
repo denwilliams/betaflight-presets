@@ -1,0 +1,14 @@
+#$ TITLE: Crazybee F4 Lite with Frsky SPI RX
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: crazybee, fc
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Configuration for Crazybee F4 Lite with Frsky SPI receiver
+#$ INCLUDE: presets/4.3/vtx/crazybee_f4lite.txt
+#$ INCLUDE: presets/4.3/rc_link/frsky_spi_d8.txt
+
+# beacon
+beacon RX_SET
+
+# TODO - fix orientation

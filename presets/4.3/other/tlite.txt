@@ -1,0 +1,11 @@
+#$ TITLE: Jumper T-Lite Configuration
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: jumper, tx
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Configuration for Jumper T-Lite
+#$ INCLUDE: presets/4.3/modes/tlite.txt
+
+# map
+map AETR1234

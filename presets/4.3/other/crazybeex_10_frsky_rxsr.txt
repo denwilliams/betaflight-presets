@@ -1,0 +1,15 @@
+#$ TITLE: CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: crazybee, fc
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Configuration for CrazybeeX 1.0 with Frsky R-XSR
+#$ INCLUDE: presets/4.3/vtx/crazybeex_10.txt
+#$ INCLUDE: presets/4.3/rc_link/frsky_rxsr.txt
+
+# beacon
+beacon RX_SET
+
+# serial for R-XSR
+serial 0 64 115200 57600 0 115200

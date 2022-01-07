@@ -1,0 +1,8 @@
+#$ TITLE: Flysky R-XSR Binding
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: frsky, rx
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Use an onboard Frsky R-XSR receiver for RX
+

@@ -174,16 +174,19 @@
       "defaults",
       "disable",
       "expert",
+      "fc",
       "filter",
       "filtering",
       "filters",
       "five33",
+      "flysky",
       "freestyle",
       "freestyle_HD",
       "frsky",
       "happymodel",
       "hot",
       "jitter",
+      "jumper",
       "launch",
       "launch_mode",
       "leds",
@@ -222,9 +225,11 @@
       "sugarK",
       "switch",
       "texas",
+      "tlite",
       "toothpick",
       "transition",
       "tune",
+      "tx",
       "vanover",
       "very",
       "very clean",
@@ -238,9 +243,9 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/crux3_cbp30_triblade.txt",
-      "hash": "dc57c240e93d797383469bbd7912371629e5daf5abcfbc2057a3d7c7f11f6cf0",
+      "hash": "29a33c375017b65b277cf05fb8bb4570566e60da590fb087f29449f1a5101c5d",
       "options": [],
-      "title": "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0 / OVX300",
+      "title": "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0 / OVX300 / T-Lite",
       "firmware_version": [
         "4.3"
       ],
@@ -252,20 +257,25 @@
         "3\"",
         "freestyle",
         "crazybee",
-        "ovx300"
+        "ovx300",
+        "tlite"
       ],
       "author": "Den Williams",
       "description": [
-        "Crux 3 Frame, 2S, Crazybee Pro 3.0 FC and ESC, OVX300"
+        "3\" quad built on Crux 3 Frame",
+        "2S battery with a Crazybee Pro 3.0 FC and OVX300 VTX",
+        "Using Jumper T-Lite controller."
       ],
       "include": [
+        "presets/4.3/other/crazybee_pro_3_frsky.txt",
         "presets/4.3/vtx/ovx300.txt",
-        "presets/4.3/tune/toothpick_3inch_2s.txt"
+        "presets/4.3/tune/toothpick_3inch_2s.txt",
+        "presets/4.3/other/tlite.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/twig2_cbx22_triblade.txt",
-      "hash": "518b0ea69072849dc941db354043ed6b91d6664a143451c16f3496e5d889b906",
+      "hash": "9c70476e6b4eb72281c0c368ff3e7f473cdc17e399c8fe7cc36cb7eab23cbf62",
       "options": [],
       "title": "Twiglet Mini Frame / 2S / Tri-blade 2\" Props / CrazybeeX 2.2",
       "firmware_version": [
@@ -286,6 +296,7 @@
         "2S battery with a CrazybeeX 2.2 FC with built in VTX."
       ],
       "include": [
+        "presets/4.3/other/crazybeex_22_flysky.txt",
         "presets/4.3/tune/toothpick_2inch_2s.txt"
       ]
     },
@@ -674,6 +685,28 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/tlite.txt",
+      "hash": "4a19990ed8adb3a7de87428a4d9d8f46cbfc5799474a669d14d26e6b3025049e",
+      "options": [],
+      "title": "Modes for T-Lite",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Default modes used with the Jumper T-Lite"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "options": [],
@@ -844,6 +877,97 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/other/crazybee_f4lite_frsky.txt",
+      "hash": "57fc821656446361a572661dea001caf845e3200b9842d706d62ae4cb174ee27",
+      "options": [],
+      "title": "Crazybee F4 Lite with Frsky SPI RX",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Configuration for Crazybee F4 Lite with Frsky SPI receiver"
+      ],
+      "include": [
+        "presets/4.3/vtx/crazybee_f4lite.txt",
+        "presets/4.3/rc_link/frsky_spi_d8.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/crazybee_pro_3_frsky.txt",
+      "hash": "8da72c44e1c2958f0bef431006bd5fa1d24d6610e902192d7cb74426c89ec6ee",
+      "options": [],
+      "title": "Crazybee Pro 3.0 with Frsky SPI RX (No Beacon)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Configuration for Crazybee Pro 3.0 with Frsky SPI receiver"
+      ],
+      "include": [
+        "presets/4.3/rc_link/frsky_spi_d8.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/crazybeex_10_frsky_rxsr.txt",
+      "hash": "86da990fdcc749e6874c080c096521d4beb7c5f8864627c5382c789e133ae8f6",
+      "options": [],
+      "title": "CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Configuration for CrazybeeX 1.0 with Frsky R-XSR"
+      ],
+      "include": [
+        "presets/4.3/vtx/crazybeex_10.txt",
+        "presets/4.3/rc_link/frsky_rxsr.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/crazybeex_22_flysky.txt",
+      "hash": "b3282ba1e36f0315f4c107371d92bf9e67f1df53b8578e864bc7ecc969e24f56",
+      "options": [],
+      "title": "CrazybeeX 2.2 with Flysky SPI RX and built in VTX (No Beacon)",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Configuration for CrazybeeX 2.2 with Flysky SPI receiver"
+      ],
+      "include": [
+        "presets/4.3/vtx/crazybeex_22.txt",
+        "presets/4.3/rc_link/flysky_spi.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/other/reset_blackbox.txt",
       "hash": "30dc088a9a24dbbbea774d4d23eb29be85da9f4a78844e23e8b4ae7ff49bd090",
       "options": [],
@@ -1000,6 +1124,28 @@
       "author": "Betaflight",
       "description": [
         "Resets the saved flight stats values back to zero"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/other/tlite.txt",
+      "hash": "196af9f1135032670a84b3fe9a349d8eed77389fb6c51d2756380fe1ecb82987",
+      "options": [],
+      "title": "Jumper T-Lite Configuration",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "jumper",
+        "tx"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Configuration for Jumper T-Lite"
+      ],
+      "include": [
+        "presets/4.3/modes/tlite.txt"
       ]
     },
     {
@@ -1469,7 +1615,45 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/rc_link/frskyd8.txt",
+      "fullPath": "presets/4.3/rc_link/flysky_spi.txt",
+      "hash": "59d835fdff49b555824c5c77c49395d6c1afc844c95ce813bc351d19e3f0705d",
+      "options": [],
+      "title": "Flysky SPI Binding",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "flysky",
+        "rx"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Use an onboard Flysky SPI receiver for RX"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/frsky_rxsr.txt",
+      "hash": "b037a7b303d911cf9c714082c31d820d2baf5ec552c361f23c6c1a2a55a31d35",
+      "options": [],
+      "title": "Flysky R-XSR Binding",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "frsky",
+        "rx"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Use an onboard Frsky R-XSR receiver for RX"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/frsky_spi_d8.txt",
       "hash": "4af1ad7ef3e07f76bf17a7d372318b958e47975d2423e891e44caa872e255d3c",
       "options": [],
       "title": "Frsky SPI D8 Binding",
@@ -2036,21 +2220,8 @@
     },
     {
       "fullPath": "presets/4.3/tune/toothpick_2inch_2s.txt",
-      "hash": "20d9466a1bdfa959980663eed3352374672544d656ef21f398aba3b3de6e0799",
-      "options": [
-        {
-          "name": "Dshot600",
-          "checked": true
-        },
-        {
-          "name": "Dshot300",
-          "checked": false
-        },
-        {
-          "name": "dynamic idle",
-          "checked": false
-        }
-      ],
+      "hash": "78f280604bcaf69e1d8dbb10dec379ae783c5d5f5875cdc89933be80822d316d",
+      "options": [],
       "title": "2\" 2S Toothpick",
       "firmware_version": [
         "4.3"
@@ -2108,6 +2279,63 @@
       "include": [
         "presets/4.3/tune/defaults.txt",
         "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/crazybee_f4lite.txt",
+      "hash": "d0f959d07f334e0470f05b58398ed44c25a11e79a8dc322a702e7c81b43c2041",
+      "options": [],
+      "title": "Crazybee F4 Lite Internal VTX 200mW",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Internal VTX configuration for Crazybee F4 Lite"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/crazybeex_10.txt",
+      "hash": "9f3b2bd1edfd776de177d7be174087809d3385ebf6f67dd5f03f735da1ed844c",
+      "options": [],
+      "title": "CrazybeeX 1.0 Internal VTX 25mW",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Internal VTX configuration for CrazybeeX"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/vtx/crazybeex_22.txt",
+      "hash": "af6cd2610ab29eb3e372750e44cdd3f31861519e52cbdaac0bdfeac86b0a2695",
+      "options": [],
+      "title": "CrazybeeX 2.2 Internal VTX 200mW",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "crazybee",
+        "fc"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Internal VTX configuration for CrazybeeX"
       ]
     },
     {

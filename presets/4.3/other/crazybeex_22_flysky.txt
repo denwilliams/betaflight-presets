@@ -1,0 +1,12 @@
+#$ TITLE: CrazybeeX 2.2 with Flysky SPI RX and built in VTX (No Beacon)
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: crazybee, fc
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Configuration for CrazybeeX 2.2 with Flysky SPI receiver
+#$ INCLUDE: presets/4.3/vtx/crazybeex_22.txt
+#$ INCLUDE: presets/4.3/rc_link/flysky_spi.txt
+
+# beacon
+beacon RX_SET

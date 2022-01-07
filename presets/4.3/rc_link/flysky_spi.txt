@@ -1,0 +1,10 @@
+#$ TITLE: Flysky SPI Binding
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: RC_LINK
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: flysky, rx
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Use an onboard Flysky SPI receiver for RX
+
+set flysky_spi_tx_id = 931549298
+set flysky_spi_rf_channels = 155,53,35,84,130,76,22,102,160,60,13,90,149,43,3,111

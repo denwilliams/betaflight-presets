@@ -1,0 +1,14 @@
+#$ TITLE: Modes for T-Lite
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: mode, modes, adjustments, aux, switch
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Default modes used with the Jumper T-Lite
+
+# aux switch settings
+
+aux 0 0 1 1850 2100 0 0
+aux 1 13 0 1375 1625 0 0
+aux 2 28 2 1850 2100 0 0
+aux 3 35 0 1850 2100 0 0
