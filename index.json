@@ -131,6 +131,8 @@
       "sugarK"
     ],
     "keywords": [
+      "2 inch",
+      "2\"",
       "2S",
       "3 inch",
       "3\"",
@@ -166,6 +168,7 @@
       "clean",
       "clear",
       "control",
+      "crazybee",
       "d8",
       "default",
       "defaults",
@@ -234,10 +237,10 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/bnf/crux3_cb30_triblade.txt",
-      "hash": "fee2cd710ecd2a63989d2490453beb2b599e5f87c9f4829003e8033756838fd7",
+      "fullPath": "presets/4.3/bnf/crux3_cbp30_triblade.txt",
+      "hash": "dc57c240e93d797383469bbd7912371629e5daf5abcfbc2057a3d7c7f11f6cf0",
       "options": [],
-      "title": "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0",
+      "title": "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0 / OVX300",
       "firmware_version": [
         "4.3"
       ],
@@ -247,7 +250,9 @@
         "2S",
         "3 inch",
         "3\"",
-        "freestyle"
+        "freestyle",
+        "crazybee",
+        "ovx300"
       ],
       "author": "Den Williams",
       "description": [
@@ -255,7 +260,33 @@
       ],
       "include": [
         "presets/4.3/vtx/ovx300.txt",
-        "presets/4.3/tune/toothpick_3_2s.txt"
+        "presets/4.3/tune/toothpick_3inch_2s.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/bnf/twig2_cbx22_triblade.txt",
+      "hash": "518b0ea69072849dc941db354043ed6b91d6664a143451c16f3496e5d889b906",
+      "options": [],
+      "title": "Twiglet Mini Frame / 2S / Tri-blade 2\" Props / CrazybeeX 2.2",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "2S",
+        "2 inch",
+        "2\"",
+        "freestyle",
+        "crazybee"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "2\" quad built on BetaFPV Twiglet Mini frame.",
+        "2S battery with a CrazybeeX 2.2 FC with built in VTX."
+      ],
+      "include": [
+        "presets/4.3/tune/toothpick_2inch_2s.txt"
       ]
     },
     {
@@ -2004,7 +2035,45 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/tune/toothpick_3_2s.txt",
+      "fullPath": "presets/4.3/tune/toothpick_2inch_2s.txt",
+      "hash": "20d9466a1bdfa959980663eed3352374672544d656ef21f398aba3b3de6e0799",
+      "options": [
+        {
+          "name": "Dshot600",
+          "checked": true
+        },
+        {
+          "name": "Dshot300",
+          "checked": false
+        },
+        {
+          "name": "dynamic idle",
+          "checked": false
+        }
+      ],
+      "title": "2\" 2S Toothpick",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "2S",
+        "2 inch",
+        "2\"",
+        "freestyle"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Tune for 2\" toothpicks"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/toothpick_3inch_2s.txt",
       "hash": "61ce7d9d8e7f534e0b014067a19922422a960a68719af3807cda7ba844cb6624",
       "options": [
         {
