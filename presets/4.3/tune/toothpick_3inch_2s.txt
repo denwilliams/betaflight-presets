@@ -9,6 +9,8 @@
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 #$ INCLUDE: presets/4.3/osd/toothpick.txt
+#$ INCLUDE: presets/4.3/rates/toothpick.txt
+#$ INCLUDE: presets/4.3/filters/toothpick_rpm.txt
 
 # feature
 feature -AIRMODE

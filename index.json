@@ -243,7 +243,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/crux3_cbp30_triblade.txt",
-      "hash": "5786866a98cb52a31eb7636fa968bfc827b16cf7b22d9d0d1774bfdb516884f2",
+      "hash": "5bc7aef05c895b41901970992c68691ea8a4ca50940a1e68bf4992218e5eed73",
       "options": [],
       "title": "TP33_115",
       "firmware_version": [
@@ -674,7 +674,7 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/filters/den_no_rpm_toothpick.txt",
+      "fullPath": "presets/4.3/filters/toothpick_no_rpm.txt",
       "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
       "options": [],
       "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
@@ -704,37 +704,7 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/filters/den_no_rpm_whoop.txt",
-      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
-      "options": [],
-      "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "filter",
-        "filters",
-        "filtering",
-        "normal",
-        "no rpm",
-        "basic",
-        "default",
-        "betaflight"
-      ],
-      "author": "Betaflight",
-      "description": [
-        "Intended for a well maintained build in good condition.",
-        "If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.",
-        "If motors grind or make noise at idle, lower the D filter slider."
-      ],
-      "include": [
-        "presets/4.3/filters/defaults.txt"
-      ]
-    },
-    {
-      "fullPath": "presets/4.3/filters/den_rpm_toothpick.txt",
+      "fullPath": "presets/4.3/filters/toothpick_rpm.txt",
       "hash": "514677251d86ed5f7894e61fabbb8449f74a53efda71ceff6caa0a2f86acc16c",
       "options": [],
       "title": "4.3 Filter settings for NORMAL build with RPM FILTERING.",
@@ -758,6 +728,36 @@
         "Intended for a well maintained build in good condition with RPM filtering.",
         "WARNING: Ensure that DShot Telemetry is working properly!",
         "If motors get hot, try a filter set for noisy or very noisy motors.",
+        "If motors grind or make noise at idle, lower the D filter slider."
+      ],
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/whoop_no_rpm.txt",
+      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
+      "options": [],
+      "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "filtering",
+        "normal",
+        "no rpm",
+        "basic",
+        "default",
+        "betaflight"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Intended for a well maintained build in good condition.",
+        "If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.",
         "If motors grind or make noise at idle, lower the D filter slider."
       ],
       "include": [
@@ -1008,7 +1008,7 @@
     },
     {
       "fullPath": "presets/4.3/other/crazybee_pro_3_frsky.txt",
-      "hash": "2d83d8f2e20f50492b962568b402ef43fcec8175bef4353900f74364468b4c2f",
+      "hash": "b464f797a36b7b4ad69f82d88982bf0307f931c0a90de07dc4900c167763a797",
       "options": [],
       "title": "Crazybee Pro 3.0 with Frsky SPI RX (No Beacon)",
       "firmware_version": [
@@ -1701,6 +1701,27 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/rates/toothpick.txt",
+      "hash": "a788106c14301df1e50f61650aeb2dab01f4ae4e61fae3c3481ea42fedbde3a2",
+      "options": [],
+      "title": "Toothpick Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "toothpick"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "900 degrees/sec for roll and pitch, 800 - for yaw. Very smooth around the sticks middle."
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
       "hash": "44965114019d72a94d515080ffbe70f9e5c10c7713cef04db1d81a4df4014d16",
       "options": [],
@@ -2352,7 +2373,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/toothpick_3inch_2s.txt",
-      "hash": "d1fdf8e12c4218b25613d5069a8c467467f86140b79ca42342e7d5096eb535bd",
+      "hash": "5115660a8e6b477c4f35949871813aa915af8aca53ff7880f81e3581d20343dd",
       "options": [],
       "title": "3\" 2S Toothpick",
       "firmware_version": [
@@ -2374,7 +2395,9 @@
         "presets/4.3/tune/defaults.txt",
         "presets/4.3/filters/defaults.txt",
         "presets/4.3/osd/defaults.txt",
-        "presets/4.3/osd/toothpick.txt"
+        "presets/4.3/osd/toothpick.txt",
+        "presets/4.3/rates/toothpick.txt",
+        "presets/4.3/filters/toothpick_rpm.txt"
       ]
     },
     {
