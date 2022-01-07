@@ -1,0 +1,15 @@
+#$ TITLE: TP32_115
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL 
+#$ KEYWORDS: 2S, 3 inch, 3", freestyle, crazybee, tlite
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Crux 3 Frame / 2S / Bi-blade 3" Props / CrazybeeX 2.2 / T-Lite
+#$ DESCRIPTION: 3" quad built on Crux 3 Frame
+#$ DESCRIPTION: 2S battery with a CrazybeeX 2.2 FC
+#$ DESCRIPTION: Using Jumper T-Lite controller
+#$ INCLUDE: presets/4.3/other/crazybeex_22_flysky.txt
+#$ INCLUDE: presets/4.3/tune/toothpick_3inch_2s.txt
+#$ INCLUDE: presets/4.3/other/tlite.txt
+
+set name = TP32_115

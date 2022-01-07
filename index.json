@@ -243,7 +243,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/crux3_cbp30_triblade.txt",
-      "hash": "29a33c375017b65b277cf05fb8bb4570566e60da590fb087f29449f1a5101c5d",
+      "hash": "cc60bdcbff0b1d8c9a6a1ca8a3fd79c986d59005100fc242bcbd28685881c701",
       "options": [],
       "title": "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0 / OVX300 / T-Lite",
       "firmware_version": [
@@ -274,8 +274,38 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/bnf/crux3_cbx22_biblade.txt",
+      "hash": "929ecad2e3bb211acfec72685b8fcb2d464fdad93a4a4a8ed7b716ac10b91a1f",
+      "options": [],
+      "title": "Crux 3 Frame / 2S / Bi-blade 3\" Props / CrazybeeX 2.2 / T-Lite",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "2S",
+        "3 inch",
+        "3\"",
+        "freestyle",
+        "crazybee",
+        "tlite"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "3\" quad built on Crux 3 Frame",
+        "2S battery with a CrazybeeX 2.2 FC",
+        "Using Jumper T-Lite controller"
+      ],
+      "include": [
+        "presets/4.3/other/crazybeex_22_flysky.txt",
+        "presets/4.3/tune/toothpick_3inch_2s.txt",
+        "presets/4.3/other/tlite.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/bnf/twig2_cbx22_triblade.txt",
-      "hash": "9c70476e6b4eb72281c0c368ff3e7f473cdc17e399c8fe7cc36cb7eab23cbf62",
+      "hash": "da058103233ac133ee22f42b42b6d33a973623cdc6598081ad51ddcd432d9f31",
       "options": [],
       "title": "Twiglet Mini Frame / 2S / Tri-blade 2\" Props / CrazybeeX 2.2",
       "firmware_version": [
@@ -293,7 +323,8 @@
       "author": "Den Williams",
       "description": [
         "2\" quad built on BetaFPV Twiglet Mini frame.",
-        "2S battery with a CrazybeeX 2.2 FC with built in VTX."
+        "2S battery with a CrazybeeX 2.2 FC with built in VTX.",
+        "Using Jumper T-Lite controller."
       ],
       "include": [
         "presets/4.3/other/crazybeex_22_flysky.txt",
