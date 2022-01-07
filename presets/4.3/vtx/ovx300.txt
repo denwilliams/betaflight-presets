@@ -6,6 +6,11 @@
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: VTX tables for OVX300
 
+#$ OPTION BEGIN (CHECKED): Smart Audio
+# serial
+serial 0 2048 115200 57600 0 115200
+#$ OPTION END
+
 #$ OPTION BEGIN (CHECKED): VTX Tables
 vtxtable bands 6
 vtxtable channels 8

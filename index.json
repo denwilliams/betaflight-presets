@@ -111,7 +111,6 @@
       "Den Williams"
     ],
     "keywords": [
-      "binding",
       "d8",
       "defaults",
       "frsky",
@@ -119,6 +118,7 @@
       "osd",
       "ovx300",
       "reset",
+      "rx",
       "toothpick",
       "whoop"
     ]
@@ -221,7 +221,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/frskyd8.txt",
-      "hash": "f97fb1ac9242ad92e2d99499d3f337c2fe62be42467a772d9bde3fdb880b28e0",
+      "hash": "4af1ad7ef3e07f76bf17a7d372318b958e47975d2423e891e44caa872e255d3c",
       "options": [],
       "title": "Frsky SPI D8 Binding",
       "firmware_version": [
@@ -232,7 +232,7 @@
       "keywords": [
         "frsky",
         "d8",
-        "binding"
+        "rx"
       ],
       "author": "Den Williams",
       "description": [
@@ -241,8 +241,12 @@
     },
     {
       "fullPath": "presets/4.3/vtx/ovx300.txt",
-      "hash": "f382a78fac2614d5f0bb3fae79e22a8c7ee8735b2fe9d307758c7b55e6091f12",
+      "hash": "6783c09d6d30c1f7f24b185f7d496d733cc051433f3ff8f6f79a00368407b414",
       "options": [
+        {
+          "name": "Smart Audio",
+          "checked": true
+        },
         {
           "name": "VTX Tables",
           "checked": true
