@@ -8,9 +8,9 @@
 #$ DESCRIPTION: 3" quad built on Crux 3 Frame
 #$ DESCRIPTION: 2S battery with a Crazybee Pro 3.0 FC and OVX300 VTX
 #$ DESCRIPTION: Using Jumper T-Lite controller.
+#$ INCLUDE: presets/4.3/tune/toothpick_3inch_2s.txt
 #$ INCLUDE: presets/4.3/other/crazybee_pro_3_frsky.txt
 #$ INCLUDE: presets/4.3/vtx/ovx300.txt
-#$ INCLUDE: presets/4.3/tune/toothpick_3inch_2s.txt
 #$ INCLUDE: presets/4.3/other/tlite.txt
 
 set name = TP33_115

@@ -243,9 +243,9 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/crux3_cbp30_triblade.txt",
-      "hash": "cc60bdcbff0b1d8c9a6a1ca8a3fd79c986d59005100fc242bcbd28685881c701",
+      "hash": "5786866a98cb52a31eb7636fa968bfc827b16cf7b22d9d0d1774bfdb516884f2",
       "options": [],
-      "title": "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0 / OVX300 / T-Lite",
+      "title": "TP33_115",
       "firmware_version": [
         "4.3"
       ],
@@ -262,22 +262,23 @@
       ],
       "author": "Den Williams",
       "description": [
+        "Crux 3 Frame / 2S / Tri-blade 3\" Props / CrazybeePro 3.0 / OVX300 / T-Lite",
         "3\" quad built on Crux 3 Frame",
         "2S battery with a Crazybee Pro 3.0 FC and OVX300 VTX",
         "Using Jumper T-Lite controller."
       ],
       "include": [
+        "presets/4.3/tune/toothpick_3inch_2s.txt",
         "presets/4.3/other/crazybee_pro_3_frsky.txt",
         "presets/4.3/vtx/ovx300.txt",
-        "presets/4.3/tune/toothpick_3inch_2s.txt",
         "presets/4.3/other/tlite.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/crux3_cbx22_biblade.txt",
-      "hash": "929ecad2e3bb211acfec72685b8fcb2d464fdad93a4a4a8ed7b716ac10b91a1f",
+      "hash": "a2ff2a9f61465fb30b057ed0a546022686f5647d49e50cbd2131f6074fa8f625",
       "options": [],
-      "title": "Crux 3 Frame / 2S / Bi-blade 3\" Props / CrazybeeX 2.2 / T-Lite",
+      "title": "TP32_115",
       "firmware_version": [
         "4.3"
       ],
@@ -293,6 +294,7 @@
       ],
       "author": "Den Williams",
       "description": [
+        "Crux 3 Frame / 2S / Bi-blade 3\" Props / CrazybeeX 2.2 / T-Lite",
         "3\" quad built on Crux 3 Frame",
         "2S battery with a CrazybeeX 2.2 FC",
         "Using Jumper T-Lite controller"
@@ -305,9 +307,9 @@
     },
     {
       "fullPath": "presets/4.3/bnf/twig2_cbx22_triblade.txt",
-      "hash": "da058103233ac133ee22f42b42b6d33a973623cdc6598081ad51ddcd432d9f31",
+      "hash": "3613f1c456f61ec86973bb5f546374a11f7ac79cfad90123a7c1f0e5e421852e",
       "options": [],
-      "title": "Twiglet Mini Frame / 2S / Tri-blade 2\" Props / CrazybeeX 2.2",
+      "title": "TP23_85",
       "firmware_version": [
         "4.3"
       ],
@@ -322,6 +324,7 @@
       ],
       "author": "Den Williams",
       "description": [
+        "Twiglet Mini Frame / 2S / Tri-blade 2\" Props / CrazybeeX 2.2",
         "2\" quad built on BetaFPV Twiglet Mini frame.",
         "2S battery with a CrazybeeX 2.2 FC with built in VTX.",
         "Using Jumper T-Lite controller."
@@ -671,6 +674,97 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/filters/den_no_rpm_toothpick.txt",
+      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
+      "options": [],
+      "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "filtering",
+        "normal",
+        "no rpm",
+        "basic",
+        "default",
+        "betaflight"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Intended for a well maintained build in good condition.",
+        "If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.",
+        "If motors grind or make noise at idle, lower the D filter slider."
+      ],
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/den_no_rpm_whoop.txt",
+      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
+      "options": [],
+      "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "filter",
+        "filters",
+        "filtering",
+        "normal",
+        "no rpm",
+        "basic",
+        "default",
+        "betaflight"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Intended for a well maintained build in good condition.",
+        "If motors get hot, try a filter set for noisy or very noisy motors, or try lowering the D filter slider.",
+        "If motors grind or make noise at idle, lower the D filter slider."
+      ],
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/filters/den_rpm_toothpick.txt",
+      "hash": "514677251d86ed5f7894e61fabbb8449f74a53efda71ceff6caa0a2f86acc16c",
+      "options": [],
+      "title": "4.3 Filter settings for NORMAL build with RPM FILTERING.",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "FILTERS",
+      "status": "OFFICIAL",
+      "keywords": [
+        "rpm",
+        "DShot telemetry",
+        "filter",
+        "filters",
+        "normal",
+        "basic",
+        "default",
+        "betaflight"
+      ],
+      "author": "Betaflight",
+      "description": [
+        "Intended for a well maintained build in good condition with RPM filtering.",
+        "WARNING: Ensure that DShot Telemetry is working properly!",
+        "If motors get hot, try a filter set for noisy or very noisy motors.",
+        "If motors grind or make noise at idle, lower the D filter slider."
+      ],
+      "include": [
+        "presets/4.3/filters/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/leds/defaults.txt",
       "hash": "c1dc1b69bd7b001253f05b56f3f6c3d60e93615c718f30a3b815846f445d1f6c",
       "options": [],
@@ -932,7 +1026,7 @@
     },
     {
       "fullPath": "presets/4.3/other/crazybee_pro_3_frsky.txt",
-      "hash": "8da72c44e1c2958f0bef431006bd5fa1d24d6610e902192d7cb74426c89ec6ee",
+      "hash": "2d83d8f2e20f50492b962568b402ef43fcec8175bef4353900f74364468b4c2f",
       "options": [],
       "title": "Crazybee Pro 3.0 with Frsky SPI RX (No Beacon)",
       "firmware_version": [
@@ -2276,21 +2370,8 @@
     },
     {
       "fullPath": "presets/4.3/tune/toothpick_3inch_2s.txt",
-      "hash": "61ce7d9d8e7f534e0b014067a19922422a960a68719af3807cda7ba844cb6624",
-      "options": [
-        {
-          "name": "Dshot600",
-          "checked": true
-        },
-        {
-          "name": "Dshot300",
-          "checked": false
-        },
-        {
-          "name": "dynamic idle",
-          "checked": false
-        }
-      ],
+      "hash": "d1fdf8e12c4218b25613d5069a8c467467f86140b79ca42342e7d5096eb535bd",
+      "options": [],
       "title": "3\" 2S Toothpick",
       "firmware_version": [
         "4.3"
@@ -2309,7 +2390,9 @@
       ],
       "include": [
         "presets/4.3/tune/defaults.txt",
-        "presets/4.3/filters/defaults.txt"
+        "presets/4.3/filters/defaults.txt",
+        "presets/4.3/osd/defaults.txt",
+        "presets/4.3/osd/toothpick.txt"
       ]
     },
     {
