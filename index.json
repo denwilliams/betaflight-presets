@@ -103,6 +103,7 @@
     ],
     "category": [
       "OSD",
+      "RC_LINK",
       "VTX"
     ],
     "author": [
@@ -110,7 +111,10 @@
       "Den Williams"
     ],
     "keywords": [
+      "binding",
+      "d8",
       "defaults",
+      "frsky",
       "happymodel",
       "osd",
       "ovx300",
@@ -213,6 +217,26 @@
       "author": "Den Williams",
       "description": [
         "Standard OSD settings for whooping"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/rc_link/frskyd8.txt",
+      "hash": "f97fb1ac9242ad92e2d99499d3f337c2fe62be42467a772d9bde3fdb880b28e0",
+      "options": [],
+      "title": "Frsky SPI D8 Binding",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "frsky",
+        "d8",
+        "binding"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Use an onboard Frsky SPI receiver in D8 mode for RX"
       ]
     },
     {
