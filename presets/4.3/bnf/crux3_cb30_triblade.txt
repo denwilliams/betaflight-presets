@@ -1,0 +1,9 @@
+#$ TITLE: Crux 3 Frame / 2S / Tri-blade 3" Props / CrazybeePro 3.0
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL 
+#$ KEYWORDS: 2S, 3 inch, 3", freestyle
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Crux 3 Frame, 2S, Crazybee Pro 3.0 FC and ESC, OVX300
+#$ INCLUDE: presets/4.3/vtx/ovx300.txt
+#$ INCLUDE: presets/4.3/tune/toothpick_3_2s.txt
