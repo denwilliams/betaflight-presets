@@ -6,12 +6,10 @@
 #$ AUTHOR: Den Williams
 #$ DESCRIPTION: VTX tables for OVX300
 
-#$ OPTION BEGIN (CHECKED): Smart Audio
 # serial
 serial 0 2048 115200 57600 0 115200
-#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): VTX Tables
+# vtx tables
 vtxtable bands 6
 vtxtable channels 8
 vtxtable band 1 BOSCAM_A A FACTORY 5865 5845 5825 5805 5785 5765 5745 5725
@@ -23,11 +21,10 @@ vtxtable band 6 LOWRACE  L FACTORY 5333 5373 5413 5453 5493 5533 5573 5613
 vtxtable powerlevels 5
 vtxtable powervalues 1 2 14 20 26
 vtxtable powerlabels 0 RCE 25 100 400
-#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): VTX Band1 Channel 1 400mW
+# vtx config
 set vtx_band = 1
 set vtx_channel = 1
 set vtx_power = 3
 set vtx_freq = 5865
-#$ OPTION END
+
