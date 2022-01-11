@@ -771,7 +771,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/whoop_no_rpm.txt",
-      "hash": "9123abd960a922117454c73e6efb2525c12a0f4bfa909230a8b36332442e9c75",
+      "hash": "530a62961fdec520a62af285ed2967a5435418fff58ec2388b95acb40c8da9dd",
       "options": [],
       "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
       "firmware_version": [
