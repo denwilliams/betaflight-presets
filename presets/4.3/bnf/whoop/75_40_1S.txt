@@ -11,6 +11,7 @@
 #$ INCLUDE: presets/4.3/tune/whoop_75mm_1s.txt
 #$ INCLUDE: presets/4.3/other/crazybeex_10_frsky_rxsr.txt
 #$ INCLUDE: presets/4.3/other/tlite.txt
+#$ INCLUDE: presets/4.3/modes/tlite_whoop.txt
 
 set name = W403_75
 

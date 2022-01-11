@@ -11,5 +11,6 @@
 #$ INCLUDE: presets/4.3/tune/toothpick_3inch_2s.txt
 #$ INCLUDE: presets/4.3/other/crazybeex_22_flysky.txt
 #$ INCLUDE: presets/4.3/other/tlite.txt
+#$ INCLUDE: presets/4.3/modes/tlite.txt
 
 set name = TP32_115

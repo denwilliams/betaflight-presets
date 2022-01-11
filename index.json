@@ -246,7 +246,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/toothpick/crux3_cbp30_triblade.txt",
-      "hash": "5bc7aef05c895b41901970992c68691ea8a4ca50940a1e68bf4992218e5eed73",
+      "hash": "2278e531708b5a15bcb47ad65ba835d6e3568ce8eac98bfd91772481130e9814",
       "options": [],
       "title": "TP33_115",
       "firmware_version": [
@@ -274,12 +274,13 @@
         "presets/4.3/tune/toothpick_3inch_2s.txt",
         "presets/4.3/other/crazybee_pro_3_frsky.txt",
         "presets/4.3/vtx/ovx300.txt",
-        "presets/4.3/other/tlite.txt"
+        "presets/4.3/other/tlite.txt",
+        "presets/4.3/modes/tlite.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/toothpick/crux3_cbx22_biblade.txt",
-      "hash": "f282018feb6392414a566067b807fc9480d7123f230198ff68ee2cacba619e8a",
+      "hash": "411b892bea36443dcf3c5f822113d4f62544219c6acbda449c18d5069ffe8424",
       "options": [],
       "title": "TP32_115",
       "firmware_version": [
@@ -305,12 +306,13 @@
       "include": [
         "presets/4.3/tune/toothpick_3inch_2s.txt",
         "presets/4.3/other/crazybeex_22_flysky.txt",
-        "presets/4.3/other/tlite.txt"
+        "presets/4.3/other/tlite.txt",
+        "presets/4.3/modes/tlite.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/toothpick/twig2_cbx22_triblade.txt",
-      "hash": "58f843a994eea36d204b3b6d10773c90e3ebf6ef63215bea502971186d0ae655",
+      "hash": "b61a4ab9a94072b5dc5d1dc3a91e863dd08333ff8f093784e70681352c976594",
       "options": [],
       "title": "TP23_85",
       "firmware_version": [
@@ -334,12 +336,13 @@
       ],
       "include": [
         "presets/4.3/tune/toothpick_2inch_2s.txt",
-        "presets/4.3/other/crazybeex_22_flysky.txt"
+        "presets/4.3/other/crazybeex_22_flysky.txt",
+        "presets/4.3/modes/tlite.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/75_40_1S.txt",
-      "hash": "fbc8f6e6a8f361f589df26010b07693627010695d8a8246c5200375476135e22",
+      "hash": "1fa59370777a4c1f5e48e6a32d136f31951e33df9267c719c6d3a283a052af8c",
       "options": [],
       "title": "W403_75",
       "firmware_version": [
@@ -364,7 +367,8 @@
       "include": [
         "presets/4.3/tune/whoop_75mm_1s.txt",
         "presets/4.3/other/crazybeex_10_frsky_rxsr.txt",
-        "presets/4.3/other/tlite.txt"
+        "presets/4.3/other/tlite.txt",
+        "presets/4.3/modes/tlite_whoop.txt"
       ]
     },
     {
@@ -863,6 +867,29 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/modes/tlite_whoop.txt",
+      "hash": "0443c2b9dccbf1d4a378f993edf821e124dc12d23e1fcaa8d58c6724697b62eb",
+      "options": [],
+      "title": "Modes for a whoop on T-Lite",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mode",
+        "modes",
+        "adjustments",
+        "aux",
+        "switch",
+        "whoop"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Whoop modes used with the Jumper T-Lite"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/osd/defaults.txt",
       "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
       "options": [],
@@ -1266,7 +1293,7 @@
     },
     {
       "fullPath": "presets/4.3/other/tlite.txt",
-      "hash": "196af9f1135032670a84b3fe9a349d8eed77389fb6c51d2756380fe1ecb82987",
+      "hash": "aa75a69a2a6fac2f8bcc3ce83880e4e699d09183a1a6bbdb1297f8c693e92d85",
       "options": [],
       "title": "Jumper T-Lite Configuration",
       "firmware_version": [
@@ -1281,9 +1308,6 @@
       "author": "Den Williams",
       "description": [
         "Configuration for Jumper T-Lite"
-      ],
-      "include": [
-        "presets/4.3/modes/tlite.txt"
       ]
     },
     {

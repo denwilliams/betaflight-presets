@@ -12,6 +12,7 @@
 #$ INCLUDE: presets/4.3/other/crazybee_pro_3_frsky.txt
 #$ INCLUDE: presets/4.3/vtx/ovx300.txt
 #$ INCLUDE: presets/4.3/other/tlite.txt
+#$ INCLUDE: presets/4.3/modes/tlite.txt
 
 set name = TP33_115
 set motor_poles = 12
