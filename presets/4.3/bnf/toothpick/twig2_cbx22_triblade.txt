@@ -8,7 +8,7 @@
 #$ DESCRIPTION: 2" quad built on BetaFPV Twiglet Mini frame.
 #$ DESCRIPTION: 2S battery with a CrazybeeX 2.2 FC with built in VTX.
 #$ DESCRIPTION: Using Jumper T-Lite controller.
-#$ INCLUDE: presets/4.3/other/crazybeex_22_flysky.txt
 #$ INCLUDE: presets/4.3/tune/toothpick_2inch_2s.txt
+#$ INCLUDE: presets/4.3/other/crazybeex_22_flysky.txt
 
 set name = TP23_85

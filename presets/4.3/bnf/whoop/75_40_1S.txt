@@ -8,8 +8,8 @@
 #$ DESCRIPTION: 75mm whoop built on Mobula 7 V4 Frame with 40mm props
 #$ DESCRIPTION: 1S battery with a CrazybeeX 1.0 FC
 #$ DESCRIPTION: Using Jumper T-Lite controller
-#$ INCLUDE: presets/4.3/other/crazybeex_10_frsky_rxsr.txt
 #$ INCLUDE: presets/4.3/tune/whoop_75mm_1s.txt
+#$ INCLUDE: presets/4.3/other/crazybeex_10_frsky_rxsr.txt
 #$ INCLUDE: presets/4.3/other/tlite.txt
 
 set name = W403_75
