@@ -131,12 +131,15 @@
       "sugarK"
     ],
     "keywords": [
+      "1S",
       "2 inch",
       "2\"",
       "2S",
       "3 inch",
       "3\"",
+      "40mm",
       "533",
+      "75mm",
       "AlexFPV",
       "BMSThomas",
       "Cgo",
@@ -242,7 +245,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/4.3/bnf/crux3_cbp30_triblade.txt",
+      "fullPath": "presets/4.3/bnf/toothpick/crux3_cbp30_triblade.txt",
       "hash": "5bc7aef05c895b41901970992c68691ea8a4ca50940a1e68bf4992218e5eed73",
       "options": [],
       "title": "TP33_115",
@@ -275,7 +278,7 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/bnf/crux3_cbx22_biblade.txt",
+      "fullPath": "presets/4.3/bnf/toothpick/crux3_cbx22_biblade.txt",
       "hash": "a2ff2a9f61465fb30b057ed0a546022686f5647d49e50cbd2131f6074fa8f625",
       "options": [],
       "title": "TP32_115",
@@ -306,7 +309,7 @@
       ]
     },
     {
-      "fullPath": "presets/4.3/bnf/twig2_cbx22_triblade.txt",
+      "fullPath": "presets/4.3/bnf/toothpick/twig2_cbx22_triblade.txt",
       "hash": "3613f1c456f61ec86973bb5f546374a11f7ac79cfad90123a7c1f0e5e421852e",
       "options": [],
       "title": "TP23_85",
@@ -332,6 +335,36 @@
       "include": [
         "presets/4.3/other/crazybeex_22_flysky.txt",
         "presets/4.3/tune/toothpick_2inch_2s.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/bnf/whoop/75_40_1S.txt",
+      "hash": "91d40c3dfc2c56e00581bead45f565446288a1bd239a3855d0dd5f6114997635",
+      "options": [],
+      "title": "W403_75",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "1S",
+        "40mm",
+        "whoop",
+        "crazybee",
+        "tlite"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Mobula 7 V4 Frame / 1S / Tri-blade 40mm Props / CrazybeeX 1.0 / Frsky R-XSR / T-Lite",
+        "75mm whoop built on Mobula 7 V4 Frame with 40mm props",
+        "1S battery with a CrazybeeX 1.0 FC",
+        "Using Jumper T-Lite controller"
+      ],
+      "include": [
+        "presets/4.3/other/crazybeex_10_frsky_rxsr.txt",
+        "presets/4.3/tune/whoop_75mm_1s.txt",
+        "presets/4.3/other/tlite.txt"
       ]
     },
     {
@@ -705,9 +738,9 @@
     },
     {
       "fullPath": "presets/4.3/filters/toothpick_rpm.txt",
-      "hash": "514677251d86ed5f7894e61fabbb8449f74a53efda71ceff6caa0a2f86acc16c",
+      "hash": "ed6b3e4b71df64694c0f2c23b645e2a6ccba44b7eb499f21e9cca99ea0f6e752",
       "options": [],
-      "title": "4.3 Filter settings for NORMAL build with RPM FILTERING.",
+      "title": "4.3 Filter settings for NORMAL toothpick build with RPM FILTERING for an F4 processor.",
       "firmware_version": [
         "4.3"
       ],
@@ -719,11 +752,9 @@
         "filter",
         "filters",
         "normal",
-        "basic",
-        "default",
-        "betaflight"
+        "toothpick"
       ],
-      "author": "Betaflight",
+      "author": "Den Williams",
       "description": [
         "Intended for a well maintained build in good condition with RPM filtering.",
         "WARNING: Ensure that DShot Telemetry is working properly!",
@@ -1030,7 +1061,7 @@
     },
     {
       "fullPath": "presets/4.3/other/crazybeex_10_frsky_rxsr.txt",
-      "hash": "86da990fdcc749e6874c080c096521d4beb7c5f8864627c5382c789e133ae8f6",
+      "hash": "fa2f628fd5582e85c16e331b3b2d2e2a8e165d7141dd1815ce534b9698651f8d",
       "options": [],
       "title": "CrazybeeX 1.0 with Frysky R-XSR RX and built in VTX (No Beacon)",
       "firmware_version": [
@@ -1744,7 +1775,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/flysky_spi.txt",
-      "hash": "59d835fdff49b555824c5c77c49395d6c1afc844c95ce813bc351d19e3f0705d",
+      "hash": "1d3185d7f570212d0cbbc3428eaeab711ab55a5cfb5c4039fe5c0835ce62407c",
       "options": [],
       "title": "Flysky SPI Binding",
       "firmware_version": [
@@ -1763,7 +1794,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/frsky_rxsr.txt",
-      "hash": "b037a7b303d911cf9c714082c31d820d2baf5ec552c361f23c6c1a2a55a31d35",
+      "hash": "b0c1ac5dc413edd9216e2d8d3c2c41b2a98cbf077a28553490a932c78b6c764f",
       "options": [],
       "title": "Flysky R-XSR Binding",
       "firmware_version": [
@@ -1782,7 +1813,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/frsky_spi_d8.txt",
-      "hash": "4af1ad7ef3e07f76bf17a7d372318b958e47975d2423e891e44caa872e255d3c",
+      "hash": "3b42fa64b2460fd4d251946d36f6a0349815f624d375ee4d4d94365b8c0d685a",
       "options": [],
       "title": "Frsky SPI D8 Binding",
       "firmware_version": [
@@ -2348,7 +2379,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/toothpick_2inch_2s.txt",
-      "hash": "78f280604bcaf69e1d8dbb10dec379ae783c5d5f5875cdc89933be80822d316d",
+      "hash": "d53663ffd307d606acb7411ccbbcc12626f0d3090519b5553ec3f046e2567445",
       "options": [],
       "title": "2\" 2S Toothpick",
       "firmware_version": [
@@ -2398,6 +2429,30 @@
         "presets/4.3/osd/toothpick.txt",
         "presets/4.3/rates/toothpick.txt",
         "presets/4.3/filters/toothpick_rpm.txt"
+      ]
+    },
+    {
+      "fullPath": "presets/4.3/tune/whoop_75mm_1s.txt",
+      "hash": "20e5d38ab9cc3be94395cda418f13343a43b1f8fd391a0e865c7117098b79656",
+      "options": [],
+      "title": "75mm 1S Whoop",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "1S",
+        "75mm",
+        "whoop"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "Tune for 75mm 1S whoops"
+      ],
+      "include": [
+        "presets/4.3/tune/defaults.txt",
+        "presets/4.3/filters/defaults.txt"
       ]
     },
     {
