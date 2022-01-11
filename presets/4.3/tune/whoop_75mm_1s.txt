@@ -7,6 +7,10 @@
 #$ DESCRIPTION: Tune for 75mm 1S whoops
 #$ INCLUDE: presets/4.3/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
+#$ INCLUDE: presets/4.3/osd/defaults.txt
+#$ INCLUDE: presets/4.3/osd/whoop.txt
+#$ INCLUDE: presets/4.3/rates/whoop.txt
+#$ INCLUDE: presets/4.3/filters/whoop_no_rpm.txt
 
 
 # feature
@@ -32,10 +36,10 @@ adjrange 1 0 1 1200 1800 12 1 0 0
 adjrange 2 0 1 1800 2100 12 1 0 0
 
 # master
-set dyn_notch_count = 5
-set dyn_notch_min_hz = 100
-set dyn_notch_max_hz = 800
-set motor_poles = 12
+# set dyn_notch_count = 5
+# set dyn_notch_min_hz = 100
+# set dyn_notch_max_hz = 800
+# set motor_poles = 12
 set vbat_min_cell_voltage = 310
 set vbat_warning_cell_voltage = 330
 set yaw_motors_reversed = ON

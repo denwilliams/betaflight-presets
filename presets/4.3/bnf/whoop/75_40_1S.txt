@@ -15,3 +15,4 @@
 set name = W403_75
 
 set acc_calibration = 8,-47,-234,1
+set motor_poles = 12
