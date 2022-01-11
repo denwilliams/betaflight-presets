@@ -1,0 +1,77 @@
+#$ TITLE: 75mm 1S Whoop
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY 
+#$ KEYWORDS: 1S, 75mm, whoop
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Tune for 75mm 1S whoops
+#$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+
+# feature
+feature -AIRMODE
+
+# beacon
+beacon RX_SET
+
+# serial
+serial 0 2048 115200 57600 0 115200
+
+# aux
+aux 0 0 0 1800 2100 0 0
+aux 1 1 2 1300 1700 0 0
+aux 2 2 2 1700 2100 0 0
+aux 3 13 3 1275 1675 0 0
+aux 4 28 1 1700 2100 0 0
+aux 5 35 3 1800 2100 0 0
+
+# adjrange
+adjrange 0 0 1 900 1200 12 1 0 0
+adjrange 1 0 1 1200 1800 12 1 0 0
+adjrange 2 0 1 1800 2100 12 1 0 0
+
+# master
+set dyn_notch_count = 5
+set dyn_notch_min_hz = 100
+set dyn_notch_max_hz = 800
+set motor_poles = 12
+set vbat_min_cell_voltage = 310
+set vbat_warning_cell_voltage = 330
+set yaw_motors_reversed = ON
+set small_angle = 180
+set deadband = 2
+set yaw_deadband = 5
+
+profile 0
+# profile 0
+set vbat_sag_compensation = 50
+set anti_gravity_gain = 10000
+set iterm_relax = RPY
+set iterm_relax_cutoff = 10
+set acro_trainer_angle_limit = 15
+set p_pitch = 68
+set i_pitch = 121
+set d_pitch = 100
+set f_pitch = 181
+set p_roll = 65
+set i_roll = 115
+set d_roll = 87
+set f_roll = 173
+set p_yaw = 65
+set i_yaw = 115
+set f_yaw = 173
+set d_min_roll = 65
+set d_min_pitch = 73
+set thrust_linear = 20
+set feedforward_transition = 21
+set feedforward_averaging = 2_POINT
+set simplified_master_multiplier = 145
+set simplified_d_gain = 150
+
+rateprofile 0
+# rateprofile 0
+set yaw_rc_rate = 25
+set roll_srate = 80
+set pitch_srate = 80
+set yaw_srate = 90

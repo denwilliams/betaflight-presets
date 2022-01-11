@@ -1,0 +1,17 @@
+#$ TITLE: W403_75
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL 
+#$ KEYWORDS: 1S, 40mm, whoop, crazybee, tlite
+#$ AUTHOR: Den Williams
+#$ DESCRIPTION: Mobula 7 V4 Frame / 1S / Tri-blade 40mm Props / CrazybeeX 1.0 / Frsky R-XSR / T-Lite
+#$ DESCRIPTION: 75mm whoop built on Mobula 7 V4 Frame with 40mm props
+#$ DESCRIPTION: 1S battery with a CrazybeeX 1.0 FC
+#$ DESCRIPTION: Using Jumper T-Lite controller
+#$ INCLUDE: presets/4.3/other/crazybeex_10_frsky_rxsr.txt
+#$ INCLUDE: presets/4.3/tune/whoop_75mm_1s.txt
+#$ INCLUDE: presets/4.3/other/tlite.txt
+
+set name = W403_75
+
+set acc_calibration = 8,-47,-234,1
