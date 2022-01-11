@@ -51,7 +51,6 @@ profile 0
 # profile 0
 set vbat_sag_compensation = 50
 set anti_gravity_gain = 10000
-set iterm_relax = RPY
 set iterm_relax_cutoff = 10
 set acro_trainer_angle_limit = 15
 set p_pitch = 68
