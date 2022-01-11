@@ -771,7 +771,7 @@
     },
     {
       "fullPath": "presets/4.3/filters/whoop_no_rpm.txt",
-      "hash": "d7d779631e27f231832409940c0f61cd8408a01acc578166f449999440e602e5",
+      "hash": "9123abd960a922117454c73e6efb2525c12a0f4bfa909230a8b36332442e9c75",
       "options": [],
       "title": "4.3 Filter settings for NORMAL build WITH NO RPM FILTERING.",
       "firmware_version": [
@@ -2478,7 +2478,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop_75mm_1s.txt",
-      "hash": "5460635c7d21afbb0db2f59fc2f31c3ac647dd9bfe7b1f34a5baa8efc2dbd4b5",
+      "hash": "c02c42e0177a15524dace45ab5486f6e3bf615193e4a3e0ee824e65434222448",
       "options": [],
       "title": "75mm 1S Whoop",
       "firmware_version": [
