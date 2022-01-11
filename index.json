@@ -279,7 +279,7 @@
     },
     {
       "fullPath": "presets/4.3/bnf/toothpick/crux3_cbx22_biblade.txt",
-      "hash": "a2ff2a9f61465fb30b057ed0a546022686f5647d49e50cbd2131f6074fa8f625",
+      "hash": "f282018feb6392414a566067b807fc9480d7123f230198ff68ee2cacba619e8a",
       "options": [],
       "title": "TP32_115",
       "firmware_version": [
@@ -303,14 +303,14 @@
         "Using Jumper T-Lite controller"
       ],
       "include": [
-        "presets/4.3/other/crazybeex_22_flysky.txt",
         "presets/4.3/tune/toothpick_3inch_2s.txt",
+        "presets/4.3/other/crazybeex_22_flysky.txt",
         "presets/4.3/other/tlite.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/toothpick/twig2_cbx22_triblade.txt",
-      "hash": "3613f1c456f61ec86973bb5f546374a11f7ac79cfad90123a7c1f0e5e421852e",
+      "hash": "58f843a994eea36d204b3b6d10773c90e3ebf6ef63215bea502971186d0ae655",
       "options": [],
       "title": "TP23_85",
       "firmware_version": [
@@ -333,13 +333,13 @@
         "Using Jumper T-Lite controller."
       ],
       "include": [
-        "presets/4.3/other/crazybeex_22_flysky.txt",
-        "presets/4.3/tune/toothpick_2inch_2s.txt"
+        "presets/4.3/tune/toothpick_2inch_2s.txt",
+        "presets/4.3/other/crazybeex_22_flysky.txt"
       ]
     },
     {
       "fullPath": "presets/4.3/bnf/whoop/75_40_1S.txt",
-      "hash": "91d40c3dfc2c56e00581bead45f565446288a1bd239a3855d0dd5f6114997635",
+      "hash": "fbc8f6e6a8f361f589df26010b07693627010695d8a8246c5200375476135e22",
       "options": [],
       "title": "W403_75",
       "firmware_version": [
@@ -362,8 +362,8 @@
         "Using Jumper T-Lite controller"
       ],
       "include": [
-        "presets/4.3/other/crazybeex_10_frsky_rxsr.txt",
         "presets/4.3/tune/whoop_75mm_1s.txt",
+        "presets/4.3/other/crazybeex_10_frsky_rxsr.txt",
         "presets/4.3/other/tlite.txt"
       ]
     },
@@ -1753,6 +1753,27 @@
       ]
     },
     {
+      "fullPath": "presets/4.3/rates/whoop.txt",
+      "hash": "bfa04cd25efa5634a179a347cd40fb10be30fdc5f231a678e1d0322b5922221c",
+      "options": [],
+      "title": "Whoop Rates",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "toothpick"
+      ],
+      "author": "Den Williams",
+      "description": [
+        "800 degrees/sec for roll and pitch, 800 - for yaw. Very smooth around the sticks middle."
+      ],
+      "include": [
+        "presets/4.3/rates/defaults.txt"
+      ]
+    },
+    {
       "fullPath": "presets/4.3/rc_link/defaults.txt",
       "hash": "44965114019d72a94d515080ffbe70f9e5c10c7713cef04db1d81a4df4014d16",
       "options": [],
@@ -2433,7 +2454,7 @@
     },
     {
       "fullPath": "presets/4.3/tune/whoop_75mm_1s.txt",
-      "hash": "20e5d38ab9cc3be94395cda418f13343a43b1f8fd391a0e865c7117098b79656",
+      "hash": "5460635c7d21afbb0db2f59fc2f31c3ac647dd9bfe7b1f34a5baa8efc2dbd4b5",
       "options": [],
       "title": "75mm 1S Whoop",
       "firmware_version": [
@@ -2452,7 +2473,11 @@
       ],
       "include": [
         "presets/4.3/tune/defaults.txt",
-        "presets/4.3/filters/defaults.txt"
+        "presets/4.3/filters/defaults.txt",
+        "presets/4.3/osd/defaults.txt",
+        "presets/4.3/osd/whoop.txt",
+        "presets/4.3/rates/whoop.txt",
+        "presets/4.3/filters/whoop_no_rpm.txt"
       ]
     },
     {
